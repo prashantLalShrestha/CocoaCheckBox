@@ -216,6 +216,9 @@ open class BEMCheckBox: UIControl, CAAnimationDelegate {
     }
     
     // MARK: Setters
+    public func setCornerRadius(_ cornerRadius: CGFloat) {
+        self.cornerRadius = cornerRadius
+    }
     
     private var _on: Bool = false
     
