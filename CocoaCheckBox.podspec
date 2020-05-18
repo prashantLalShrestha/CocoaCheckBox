@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "CocoaCheckBox"
-  spec.version = "1.0.1"
+  spec.version = "1.0.2"
   spec.summary = "CocoaCheckBox is just a simple CoreFoundationKit utility Module"
 
   spec.description = <<-DESC
