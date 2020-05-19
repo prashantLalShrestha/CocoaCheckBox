@@ -14,6 +14,8 @@
 		8F14D3A62472FFEA0017DF70 /* BEMAnimationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D3A22472FFE90017DF70 /* BEMAnimationManager.swift */; };
 		8F14D3A72472FFEA0017DF70 /* BEMCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D3A32472FFE90017DF70 /* BEMCheckBox.swift */; };
 		8F14D3A82472FFEA0017DF70 /* BEMCheckBoxGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F14D3A42472FFE90017DF70 /* BEMCheckBoxGroup.swift */; };
+		8F86DB162473D76E00BE8F10 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86DB152473D76E00BE8F10 /* CheckBoxView.swift */; };
+		8F86DB182473D99500BE8F10 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86DB172473D99500BE8F10 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,8 @@
 		8F14D3A22472FFE90017DF70 /* BEMAnimationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMAnimationManager.swift; sourceTree = "<group>"; };
 		8F14D3A32472FFE90017DF70 /* BEMCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMCheckBox.swift; sourceTree = "<group>"; };
 		8F14D3A42472FFE90017DF70 /* BEMCheckBoxGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BEMCheckBoxGroup.swift; sourceTree = "<group>"; };
+		8F86DB152473D76E00BE8F10 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		8F86DB172473D99500BE8F10 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		8F14D39F2472FF880017DF70 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				8F86DB152473D76E00BE8F10 /* CheckBoxView.swift */,
+				8F86DB172473D99500BE8F10 /* CheckBox.swift */,
 				8F14D3A02472FFE90017DF70 /* BEMCheckBox */,
 			);
 			path = Sources;
@@ -245,6 +251,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F14D3A52472FFE90017DF70 /* BEMPathManager.swift in Sources */,
+				8F86DB162473D76E00BE8F10 /* CheckBoxView.swift in Sources */,
+				8F86DB182473D99500BE8F10 /* CheckBox.swift in Sources */,
 				8F14D3A82472FFEA0017DF70 /* BEMCheckBoxGroup.swift in Sources */,
 				8F14D3A72472FFEA0017DF70 /* BEMCheckBox.swift in Sources */,
 				8F14D3A62472FFEA0017DF70 /* BEMAnimationManager.swift in Sources */,
