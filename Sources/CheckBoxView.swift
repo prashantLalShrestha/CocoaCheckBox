@@ -28,6 +28,7 @@ open class CheckBoxView: UIView {
         view.lineWidth = 1.0
         view.translatesAutoresizingMaskIntoConstraints = false
         view.heightAnchor.constraint(equalToConstant: BaseDimensions.checkBoxHeight).isActive = true
+        view.widthAnchor.constraint(equalToConstant: BaseDimensions.checkBoxHeight).isActive = true
         return view
     }()
     public lazy var checkBoxLabel: UILabel = {
