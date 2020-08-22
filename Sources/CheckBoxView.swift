@@ -18,7 +18,7 @@ fileprivate struct BaseDimensions {
     }
 }
 
-public class CheckBoxView: UIView {
+open class CheckBoxView: UIView {
     
     public var delegate: BEMCheckBoxDelegate?
     
@@ -74,7 +74,7 @@ public class CheckBoxView: UIView {
         checkBoxView.checkBox.setOn(!checkBoxView.checkBox.on, animated: true)
     }
     
-    public func makeUI() {
+    open func makeUI() {
         
         self.addSubview(checkboxStackView)
         checkboxStackView.translatesAutoresizingMaskIntoConstraints = false
@@ -85,6 +85,14 @@ public class CheckBoxView: UIView {
         
         self.addSubview(button)
         button.translatesAutoresizingMaskIntoConstraints = true
+    }
+    
+    open override func layoutSubviews() {
+        super.layoutSubviews()
+        if self.frame.height != 0.0 {
+            checkBox.frame = CGRect(x: 0, y: 0, width: self.frame.height, height: self.frame.height)
+            checkBox.layoutIfNeeded()
+        }
     }
     
     @objc func buttonAction() {
